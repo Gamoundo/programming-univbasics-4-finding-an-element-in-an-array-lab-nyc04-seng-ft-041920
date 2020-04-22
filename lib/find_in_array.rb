@@ -9,9 +9,9 @@ def find_element_index(array, value_to_find)
     if array[i] == value_to_find
       i
 puts i
-    else
-      nil
+
   end
 i +=1
 end
+nil
 end
