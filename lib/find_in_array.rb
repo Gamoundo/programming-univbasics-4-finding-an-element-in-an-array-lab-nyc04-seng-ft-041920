@@ -1,3 +1,5 @@
+require "pry"
+
 def find_element_index(array, value_to_find)
   # Add your solution here
   i =0
@@ -6,6 +8,7 @@ def find_element_index(array, value_to_find)
     i += 1
     if array[i] == value_to_find
       i
+      binding.pry
     else
       nil
   end
