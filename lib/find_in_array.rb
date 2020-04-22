@@ -7,11 +7,11 @@ def find_element_index(array, value_to_find)
 
 
     if array[i] == value_to_find
-      i
+    return  i
 puts i
 
   end
 i +=1
 end
-nil
+
 end
